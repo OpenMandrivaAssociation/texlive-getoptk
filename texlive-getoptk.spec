@@ -1,3 +1,9 @@
+# revision 23567
+# category Package
+# catalog-ctan /macros/plain/contrib/getoptk
+# catalog-date 2011-08-07 22:43:01 +0200
+# catalog-license nosource
+# catalog-version 1.0
 Name:		texlive-getoptk
 Version:	1.0
 Release:	1
@@ -44,6 +50,7 @@ with Plain TeX; its syntax derives from that of the \hbox,
 %doc %{_texmfdistdir}/doc/plain/getoptk/COPYING-FR
 %doc %{_texmfdistdir}/doc/plain/getoptk/README
 %doc %{_texmfdistdir}/doc/plain/getoptk/guide.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ with Plain TeX; its syntax derives from that of the \hbox,
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
