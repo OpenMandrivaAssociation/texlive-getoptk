@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-getoptk
 Version:	1.0
-Release:	8
+Release:	9
 Summary:	Define macros with sophisticated options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/getoptk
