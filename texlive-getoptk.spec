@@ -1,6 +1,6 @@
 Name:		texlive-getoptk
 Version:	23567
-Release:	1
+Release:	2
 Summary:	Define macros with sophisticated options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/getoptk
