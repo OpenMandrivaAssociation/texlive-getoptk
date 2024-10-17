@@ -3,7 +3,7 @@ Version:	23567
 Release:	2
 Summary:	Define macros with sophisticated options
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/getoptk
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/getoptk
 License:	NOSOURCE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getoptk.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/getoptk.doc.r%{version}.tar.xz
